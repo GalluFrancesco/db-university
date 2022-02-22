@@ -29,3 +29,7 @@ WHERE `date` = "2020-06-20"
 SELECT * 
 FROM `degrees`
 WHERE `level` = "magistrale";
+
+--7)Da quanti dipartimenti è composta l'università?
+SELECT COUNT(`id`) AS "n_departments"
+FROM `departments`
